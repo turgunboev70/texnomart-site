@@ -1,0 +1,18 @@
+[
+    {
+        "text" : "Bizning do'konlarimiz",
+        "background" : false
+    },
+    {
+        "text" : "Yuridik shaxslar uchun",
+        "background" : true
+    },
+    {
+        "text" : "Muddatli to'lovga sotib olish",
+        "background" : false
+    },
+    {
+        "text" : "To'lov usullari",
+        "background" : false
+    }
+]
