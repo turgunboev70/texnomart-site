@@ -1,6 +1,8 @@
 .header__top {
     width: 100%;
     height: 48px;
+    display: flex;
+    align-items: center;
 }
 
 .header__topInner {
@@ -34,17 +36,19 @@
 }
 
 .header__region {
+    position: relative;
     border: none;
     background-color: transparent;
     font-size: 22px;
     display: flex;
     align-items: center;
     font-weight: 400;
+    padding: 8px 0;
 }
 
 .header__region>span {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 110%;
     color: #333;
     margin-left: 4px;
@@ -53,7 +57,7 @@
 
 .header__location__dropdown {
     position: absolute;
-    top: 100%;
+    top: 105%;
     right: 0;
     z-index: 1;
     background-color: #fff;
@@ -71,6 +75,7 @@
     width: 100%;
     font-size: 14px;
     line-height: 20px;
+    cursor: pointer;
 }
 
 .header__top__pages {
@@ -78,6 +83,10 @@
 }
 
 .header__top__call {
+    display: none;
+}
+
+.header__call__centre {
     display: none;
 }
 
@@ -107,6 +116,7 @@
     .header__top__call {
         order: 3;
         display: flex;
+        justify-content: flex-end;
     }
 
     .header__top__call>a {
@@ -127,8 +137,9 @@
 
 @media screen and (min-width: 1024px) {
     .header__top {
-        background-color: #000;
+        background-color: #333;
     }
+
     .header__logo__left {
         display: none;
     }
@@ -136,17 +147,27 @@
     .header__top__right {
         max-width: 100%;
     }
-    .header__region > span, .header__userLocation {
+
+    .header__region {
+        margin-right: 25px;
+        max-width: 100px;
+    }
+
+    .header__region>span,
+    .header__userLocation {
         color: #fff;
     }
     
+    .header__dropdown__city:hover {
+        background-color: #fef3cc;
+    }
     .header__top__pages {
         display: block;
         order: 2;
     }
-
     .header__top__list {
         display: flex;
+        align-items: center;
     }
 
     .header__pages {
@@ -157,5 +178,39 @@
         display: block;
         padding: 8px 0;
         margin: 0 6px;
+    }
+
+    .header__top__call {
+        max-width: 240px;
+        width: 100%;
+    }
+
+    .header__top__call>a {
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .header__region {
+        margin-right: 40px;
+    }
+
+    .header__pages {
+        margin: 0 10px;
+    }
+    .header__top__call {
+        max-width: 361px;
+    }
+    .call__icon {
+        display: none;
+    }
+    .header__call__centre {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .header__pages {
+        margin: 0 16px;
     }
 }

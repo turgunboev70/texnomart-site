@@ -8,7 +8,7 @@ import headerPages from "../../../dummy-files/headerTop.dummy.json"
 const HeaderTop = () => {
   const locationNames = ["Toshkent", "Buxoro", "Andijon", "Fergana", "Namangan", "Samarqand"]
   const [userLocation, setUserLocation] = useState("Toshkent")
-
+  const [dropdownActive, setDropdownActive] = useState(false)
 
   return (
     <div className={c.header__top}>
@@ -25,14 +25,14 @@ const HeaderTop = () => {
                 <FiPhone />
               </a>
             </span>
-            <div className={c.header__top__location}>
-              <button className={c.header__region}>
+            <div className={c.header__top__location} onMouseLeave={() => setDropdownActive(false)}>
+              <button className={c.header__region} onMouseOver={() => setDropdownActive(true)} >
                 <SlLocationPin className={c.header__userLocation}/>
                 <span>
                   {userLocation}
                 </span>
               </button>
-              <div className={c.header__location__dropdown}>
+              <div className={c.header__location__dropdown} style={dropdownActive ? {display : "block"} : {display : "none"}}>
                 {locationNames.map(city =>
                   <div onClick={() => setUserLocation(city)} className={c.header__dropdown__city}>
                     {city}
@@ -42,7 +42,7 @@ const HeaderTop = () => {
             </div>
             <div className={c.header__top__pages}>
                   <ul className={c.header__top__list}>
-                    {headerPages.map(({text, background}) => 
+                    {headerPages.map(({text}) => 
                     <li className={`${c.header__pages}`}>{text}</li>
                     )}
                   </ul>
@@ -50,8 +50,9 @@ const HeaderTop = () => {
           </div>
           <div className={c.header__top__call}>
             <a href="tel:+998941245559">
+              <span className={c.header__call__centre}>Aloqa markazi : </span>
               <FiPhone className={c.call__icon}/>
-              <span>+99894 124 55 59</span>
+              <span> +99894 124 55 59</span>
             </a>
           </div>
         </div>

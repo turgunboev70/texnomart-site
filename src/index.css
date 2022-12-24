@@ -54,12 +54,25 @@
     font-family: "Roboto", sans-serif;
 }
 
-.container {
-    min-width: 355px;
-    margin: 0 auto;
-    padding: 0 10px;
+*::-webkit-scrollbar {
+  width: 7px;
 }
 
+*::-webkit-scrollbar-thumb {
+  background: #e8e8e8;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.container {
+  min-width: 355px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
 
 @media screen and (min-width: 1024px) {
   .container {
