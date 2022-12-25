@@ -1,0 +1,26 @@
+.header__bottom {
+    display: none;
+    padding: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__bottom {
+        display: block;
+    }
+
+    .header__bottom__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 0 10px;
+    }
+
+    .header__bottom__btn {
+        padding: 10px 16px;
+        background: #fbc100;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+    }
+}
