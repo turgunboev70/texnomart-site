@@ -4,7 +4,7 @@ import {RiCheckboxBlankLine, RiCloseFill} from "react-icons/ri"
 
 const HeaderBottom = () => {
     const [categoryList, setCategoryList] = useState(null)
-    const [catalogActive, setCatalogActive] = useState(false)
+    const [catalogActive, setCatalogActive] = useState(true)
 
     useEffect(() => {
         fetch("https://api.escuelajs.co/api/v1/categories")
@@ -18,7 +18,7 @@ const HeaderBottom = () => {
         <div className={c.header__bottom}>
             <div className="container">
                 <div className={c.header__bottom__wrapper}>
-                    <button className={c.header__bottom__btn}>
+                    <button className={c.header__bottom__btn} onClick={() => setCatalogActive(!catalogActive)}>
                         {catalogActive ?
                             <span className={c.header__catalog__wrapper}>
                                 <span className={c.header__icons}>
@@ -31,14 +31,15 @@ const HeaderBottom = () => {
                                 </span>
                             </span>
                             :
-                            <span>
+                            <span className={c.header__close__catalog}>
                                 <RiCloseFill/>
                             </span>
                         }
+                        <span className={c.header__catalog__text}>Katalog</span>
                     </button>
                     <ul className={c.header__bottom__list}>
                         {categoryList?.map(({ name }) =>
-                            <li>{name}</li>
+                            <li className={c.header__bottom__promotions}>{name}</li>
                         )}
                     </ul>
                 </div>
