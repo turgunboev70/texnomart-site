@@ -1,11 +1,14 @@
 import React, { useState } from 'react'
 import c from "./HeaderFixed.module.css"
-import { TbMenu2 } from "react-icons/tb"
-import { RiCloseFill, RiUser6Line, RiCheckboxBlankLine } from "react-icons/ri"
-import {IoChevronDown} from "react-icons/io5"
+import { TbMenu2, TbMicrophone, TbSearch, TbUser, TbScale } from "react-icons/tb"
+import { RiCloseFill, RiUser6Line, RiCheckboxBlankLine, RiHeartLine } from "react-icons/ri"
+import { IoChevronDown } from "react-icons/io5"
+import {MdOutlineShoppingCart} from "react-icons/md"
 import logo from "../../../assets/images/texnomart_logo_white.svg"
 import categoryList from "../../../dummy-files/categoryList.dummy.json"
 import list from "../../../dummy-files/headerTop.dummy.json"
+import siteLogo from "../../../assets/images/texnomart_logo.svg"
+import {TfiDropbox} from "react-icons/tfi"
 
 const HeaderFixed = () => {
     const [mobileNavActive, setMobileNavActive] = useState(false)
@@ -19,6 +22,11 @@ const HeaderFixed = () => {
                     <button className={c.header__fixed__miniBtn} onClick={() => setMobileNavActive(true)}>
                         <TbMenu2 />
                     </button>
+                    <div className={c.header__logo__box}>
+                        <a href="/">
+                            <img src={siteLogo} alt="" />
+                        </a>
+                    </div>
                     <div className={mobileNavActive ? `${c.header__fixed__navMobile} ${c.nav__mobile__active}` : `${c.header__fixed__navMobile}`}>
                         <div className={c.header__nav__top}>
                             <div className={c.header__navInner__top}>
@@ -61,10 +69,10 @@ const HeaderFixed = () => {
                                     </span>
                                     Maxsulotlar katalogi
                                 </li>
-                                {list.map(({text}) => 
-                                <li className={c.header__nav__item}>
-                                    {text}
-                                </li>
+                                {list.map(({ text }) =>
+                                    <li className={c.header__nav__item}>
+                                        {text}
+                                    </li>
                                 )}
                             </ul>
                         </div>
@@ -74,19 +82,53 @@ const HeaderFixed = () => {
                             <div className={c.header__search__catalog} onMouseOver={() => setCatalogListActive(true)} onMouseLeave={() => setCatalogListActive(false)}>
                                 <button className={c.header__category__btn}>
                                     <span className={c.header__categories}>Barcha kategoriyalar</span>
-                                    <IoChevronDown/>
+                                    <IoChevronDown />
                                 </button>
-                                <div className={c.header__category__list} style={catalogListActive ? {display : "block"} : {display : "none"}}>
+                                <div className={c.header__category__list} style={catalogListActive ? { display: "block" } : { display: "none" }}>
                                     <ul>
-                                        {categoryList.map(text => 
-                                        <li className={c.category__list}>{text}</li>
+                                        {categoryList.map(text =>
+                                            <li className={c.category__list}>{text}</li>
                                         )}
                                     </ul>
                                 </div>
                             </div>
-                            <div className={c.header__input__field}></div>
-                            <div className={c.header__search__btn}></div>
+                            <div className={c.header__input__field}>
+                                <label htmlFor="site-header-input"></label>
+                                <input className={c.header__input__el} id='site-header-input' type="text" />
+                                <button className={c.header__voice__search}>
+                                    <TbMicrophone />
+                                </button>
+                            </div>
+                            <div className={c.header__search__btn}>
+                                <button className={c.header__search__btn__inner}>
+                                    <TbSearch />
+                                </button>
+                            </div>
                         </div>
+                    </div>
+                    <div className={c.header__fixed__right}>
+                        <ul className={c.header__right__list}>
+                            <li className={c.header__right__item}>
+                                <TfiDropbox/>
+                                <span>Buyurtma holati</span>
+                            </li>
+                            <li className={c.header__right__item}>
+                                <TbUser/>
+                                <span>Kirish</span>
+                            </li>
+                            <li className={c.header__right__item}>
+                                <TbScale/>
+                                <span>Taqqoslash</span>
+                            </li>
+                            <li className={c.header__right__item}>
+                                <RiHeartLine/>
+                                <span>Sevimlilar</span>
+                            </li>
+                            <li className={c.header__right__item}>
+                                <MdOutlineShoppingCart/>
+                                <span>Savatcha</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
