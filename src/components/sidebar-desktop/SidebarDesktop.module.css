@@ -1,0 +1,16 @@
+.swiper__wrapper {
+    display: none;
+}
+.swiper__box {
+    position: relative;
+}
+.swiper__image {
+    max-width: 1515px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .swiper__wrapper {
+        display: block;
+    }
+}

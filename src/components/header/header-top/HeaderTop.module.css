@@ -3,6 +3,7 @@
     height: 48px;
     display: flex;
     align-items: center;
+    background: #f3f3f3;
 }
 
 .header__topInner {

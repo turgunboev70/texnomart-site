@@ -12,8 +12,6 @@ const HeaderBottom = () => {
             .then(data => setCategoryList(data))
     }, [])
 
-    console.log(categoryList);
-
     return (
         <div className={c.header__bottom}>
             <div className="container">
@@ -38,8 +36,8 @@ const HeaderBottom = () => {
                         <span className={c.header__catalog__text}>Katalog</span>
                     </button>
                     <ul className={c.header__bottom__list}>
-                        {categoryList?.map(({ name }) =>
-                            <li className={c.header__bottom__promotions}>{name}</li>
+                        {categoryList?.slice(0, 8).map(({ name }, index) =>
+                            <li key={index} className={c.header__bottom__promotions}>{name}</li>
                         )}
                     </ul>
                 </div>

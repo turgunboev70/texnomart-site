@@ -74,6 +74,13 @@
   padding: 0 10px;
 }
 
+.swiper__btn__prev {
+  left: -20px;
+}
+.swiper__btn__next {
+  right: 0px;
+}
+
 @media screen and (min-width: 1024px) {
   .container {
     padding: 0px 32px;

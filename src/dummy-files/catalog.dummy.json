@@ -1,0 +1,1205 @@
+[
+    {
+        "type" : "Maishiy texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/texnika_dlya_doma.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Ofis jihozlari",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/ofisnaya_texnika.svg",
+        "inner" : [
+            {
+                "product" : "OFIS NOUTBUKLARI",
+                "list" : []
+            },
+            {
+                "product" : "OFIS MONITORLARI",
+                "list" : []
+            },
+            {
+                "product" : "WI-FI ROUTERLAR",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "QALAMLAR",
+                "list" : []
+            },
+            {
+                "product" : "SHAXSIY KOMPYUTERLAR",
+                "list" : []
+            },
+            {
+                "product" : "QOG'OZ MAYDALAGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "PRINTERLAR",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "SUV SOVUTGICHILAR",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Oshxona uchun texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/texnika_dlya_kuxni.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Uy uchun idishlar",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/posuda_dlya_doma.svg",
+        "inner" : [
+            {
+                "product" : "OVQAT PISHIRISH UCHUN",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "STOL UCHUN IDISHLAR",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "YORDAMCHI IDISHLAR",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            }
+        ]
+    },
+    {
+        "type" : "Avtomobil uchun mahsulotlar",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/tovar_dlya_avto.svg",
+        "inner" : [
+            {
+                "product" : "BOSIMLI YUVISH MASHINALARI",
+                "list" : []
+            },
+            {
+                "product" : "AVTOMOBIL AKSESSUARLARI",
+                "list" : []
+            },
+            {
+                "product" : "AVTOMOBIL AKUSTIKASI",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "AVTOMOBIL SIGNALIZATSIYALARI",
+                "list" : []
+            },
+            {
+                "product" : "SHAXSIY KOMPYUTERLAR",
+                "list" : []
+            },
+            {
+                "product" : "RADAR DETEKTORLAR",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "AVTOMOBIL KUCHAYTIRGICHLARI",
+                "list" : []
+            },
+            {
+                "product" : "VIDEOREGISTRATORLAR",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Iqlim texnikasi",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/klimaticheskaya_texnika.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Televizorlar va telekartalar",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/televizori_i_telekarti.svg",
+        "inner" : [
+            {
+                "product" : "Maishiy texnika",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Telefonlar va gadjetlar",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/telefoni_i_gatjeti.svg",
+        "inner" : [
+            {
+                "product" : "OFIS NOUTBUKLARI",
+                "list" : []
+            },
+            {
+                "product" : "OFIS MONITORLARI",
+                "list" : []
+            },
+            {
+                "product" : "WI-FI ROUTERLAR",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "QALAMLAR",
+                "list" : []
+            },
+            {
+                "product" : "SHAXSIY KOMPYUTERLAR",
+                "list" : []
+            },
+            {
+                "product" : "QOG'OZ MAYDALAGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "PRINTERLAR",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "SUV SOVUTGICHILAR",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Oshxona uchun texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/komputernaya_texnika.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Maishiy texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/komputernaya_texnika.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Ofis jihozlari",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/audiotexnika_i_hifi.svg",
+        "inner" : [
+            {
+                "product" : "OFIS NOUTBUKLARI",
+                "list" : []
+            },
+            {
+                "product" : "OFIS MONITORLARI",
+                "list" : []
+            },
+            {
+                "product" : "WI-FI ROUTERLAR",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "QALAMLAR",
+                "list" : []
+            },
+            {
+                "product" : "SHAXSIY KOMPYUTERLAR",
+                "list" : []
+            },
+            {
+                "product" : "QOG'OZ MAYDALAGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "PRINTERLAR",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "SUV SOVUTGICHILAR",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Oshxona uchun texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/krasota_i_zdorove.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Maishiy texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/tovati_dlya_detey.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Ofis jihozlari",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/foto_i_video.svg",
+        "inner" : [
+            {
+                "product" : "OFIS NOUTBUKLARI",
+                "list" : []
+            },
+            {
+                "product" : "OFIS MONITORLARI",
+                "list" : []
+            },
+            {
+                "product" : "WI-FI ROUTERLAR",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "QALAMLAR",
+                "list" : []
+            },
+            {
+                "product" : "SHAXSIY KOMPYUTERLAR",
+                "list" : []
+            },
+            {
+                "product" : "QOG'OZ MAYDALAGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "PRINTERLAR",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "SUV SOVUTGICHILAR",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    },
+    {
+        "type" : "Oshxona uchun texnika",
+        "icon" : "https://backend.texnomart.uz/files/global/new-photo/img/category_for_pc/igroviye_pristavki.svg",
+        "inner" : [
+            {
+                "product" : "TIKUV MASHINALARI",
+                "list" : [
+                    "Chayka",
+                    "Aurora",
+                    "Janome",
+                    "Bernette",
+                    "Оверлоклар",
+                    "Тикув машина тўпламлари"
+                ]
+            },
+            {
+                "product" : "DAZMOL TAXTALARI",
+                "list" : []
+            },
+            {
+                "product" : "SIMSIZ CHANGYUTGICH",
+                "list" : [
+                    "Вертикал симсиз чангютгичлар",
+                    "Уй учун",
+                    "Polaris чангютгичлари",
+                    "Philips чангютгичлари",
+                    "Tefal чангютгичлари",
+                    "LG чангютгичлари"
+                ]
+            },
+            {
+                "product" : "KIR YUVISH MASHINALARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "KIYIM QURITGICHLAR",
+                "list" : []
+            },
+            {
+                "product" : "BUG' GENERATORLARI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "ROBOT CHANGYUTGICH",
+                "list" : [
+                    "Indesit кир ювиш машиналари",
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари"
+                ]
+            },
+            {
+                "product" : "VERTIKAL BUG' MASHINASI",
+                "list" : [
+                    "Барча кир ювиш машиналари",
+                    "Whirlpool кир ювиш машиналари",
+                    "Electrolux кир ювиш машиналари",
+                    "Samsung кир ювиш машиналари",
+                    "Indesit кир ювиш машиналари",
+                    "Shivaki кир ювиш машиналари",
+                    "Bosch кир ювиш машиналари",
+                    "Atlant кир ювиш машиналари",
+                    "Beko кир ювиш машиналари"
+                ]
+            }
+        ]
+    }
+]

@@ -33,8 +33,8 @@ const HeaderTop = () => {
                 </span>
               </button>
               <div className={c.header__location__dropdown} style={dropdownActive ? {display : "block"} : {display : "none"}}>
-                {locationNames.map(city =>
-                  <div onClick={() => setUserLocation(city)} className={c.header__dropdown__city}>
+                {locationNames.map((city, index) =>
+                  <div key={index} onClick={() => setUserLocation(city)} className={c.header__dropdown__city}>
                     {city}
                   </div>
                 )}
@@ -42,8 +42,8 @@ const HeaderTop = () => {
             </div>
             <div className={c.header__top__pages}>
                   <ul className={c.header__top__list}>
-                    {headerPages.map(({text}) => 
-                    <li className={`${c.header__pages}`}>{text}</li>
+                    {headerPages.map(({text}, index) => 
+                    <li key={index} className={`${c.header__pages}`}>{text}</li>
                     )}
                   </ul>
             </div>

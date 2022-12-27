@@ -1,0 +1,10 @@
+.swiper__image {
+    max-width: 768px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .swiper__wrapper {
+        display: none;
+    }
+}

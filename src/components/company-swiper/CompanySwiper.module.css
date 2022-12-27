@@ -1,0 +1,45 @@
+.company__wrapper {
+    margin-bottom: 38px;
+    margin-top: 38px;
+}
+.company__swiper__box {
+    position: relative;
+}
+.brands__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1.17143px 14.0571px rgba(0,0,0,0.06);
+    border: 1px solid hsla(0,0%,92.5%,.7019607843137254);
+    height: 64px;
+    max-width: 145px;
+    width: 100%;
+    border-radius: 0.75rem;
+}
+.brands__image {
+    max-width: 64px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.swiper__btn {
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff !important;
+    border: 1px solid #ececec;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+ @media screen and (min-width: 1024px) {
+    .swiper__btn {
+        display: flex;
+    }
+ }
