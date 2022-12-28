@@ -30,6 +30,7 @@
     overflow-y: scroll;
 }
 .catalog__list {
+    width: 100%;
     padding: 0 0 40px;
 }
 .catalog__item {
@@ -53,4 +54,52 @@
 }
 .catalog__nextBtn {
     font-size: 19px;
+}
+.catalog__option {
+    position: absolute;
+    inset: 0;
+    top: 46px;
+    background-color: #fff;
+    height: 100vh;
+}
+.catalog__box {
+    width: 100%;
+}
+.option__header {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    color: #333;
+    font-weight: 500;
+    padding: 12px 20px;
+    background: #f7f7f7;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.option__header__icon {
+    font-size: 20px;
+    color: gray;
+    margin-right: 2.5rem;
+}
+.option__item {
+    padding: 10px 16px 10px 50px;
+}
+.option__btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: gray;
+}
+.option__box {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    color: #333;
+    font-weight: 400;
 }
