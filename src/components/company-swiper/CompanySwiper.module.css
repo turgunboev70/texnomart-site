@@ -3,6 +3,7 @@
     margin-top: 38px;
 }
 .company__swiper__box {
+    width: 100%;
     position: relative;
 }
 .brands__box {
@@ -22,22 +23,7 @@
     height: 100%;
     object-fit: contain;
 }
-.swiper__btn {
-    display: none;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-    background-color: #fff !important;
-    border: 1px solid #ececec;
-    top: 50%;
-    transform: translateY(-50%);
-    position: absolute;
-    z-index: 3;
-    cursor: pointer;
-    font-size: 20px;
-    align-items: center;
-    justify-content: center;
-}
+
  @media screen and (min-width: 1024px) {
     .swiper__btn {
         display: flex;

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import c from "./HeaderBottom.module.css"
 import { RiCheckboxBlankLine, RiCloseFill } from "react-icons/ri"
 import CatalogDesktop from '../../catalog-desktop/CatalogDesktop'
-import {Overlay} from "../../../utils/index"
 
 const HeaderBottom = () => {
     const [categoryList, setCategoryList] = useState(null)

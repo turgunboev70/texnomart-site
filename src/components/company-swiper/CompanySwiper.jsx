@@ -38,7 +38,7 @@ const CompanySwiper = () => {
                             }
                         }}
                         slidesPerView={"auto"}
-                        spaceBetween={20}
+                        spaceBetween={30}   
                         modules={[Navigation]}
                         className="mySwiper"
                     >
@@ -50,10 +50,10 @@ const CompanySwiper = () => {
                             </SwiperSlide>
                         )}
                     </Swiper>
-                    <button className={`swiper__btn__prev ${c.swiper__btn}`}>
+                    <button className={`swiper__btn__prev swiper__btn`}>
                             <FiChevronLeft/>
                     </button>
-                    <button className={`swiper__btn__next ${c.swiper__btn}`}>
+                    <button className={`swiper__btn__next swiper__btn`}>
                             <FiChevronRight/>
                     </button>
                 </div>

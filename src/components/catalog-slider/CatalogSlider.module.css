@@ -1,0 +1,37 @@
+.catalog__title {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.catalog__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #333;
+}
+
+.catalog__swiper {
+    position: relative;
+}
+.catalog__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 94px;
+    background: #fff;
+    border: 1px solid hsla(0,0%,92.5%,.7);
+    box-shadow: 0 2px 24px rgb(0 0 0 / 6%);
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+.category__type {
+    display: none;
+}
+.catalog__mobile__text {
+    display: flex;
+    align-items: center;
+    justify-content: centerx;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
