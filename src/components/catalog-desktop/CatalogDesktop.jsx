@@ -3,9 +3,8 @@ import c from "./CatalogDesktop.module.css"
 import data from "../../dummy-files/catalog.dummy.json"
 import { FiChevronRight } from "react-icons/fi"
 
-const Catalog = () => {
+const Catalog = ({ callback }) => {
   const [catalogRightData, setCatalogRightData] = useState(null || data[0])
-  console.log(catalogRightData);
 
   return (
     <div className={c.catalog__section}>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import c from "./HeaderBottom.module.css"
 import { RiCheckboxBlankLine, RiCloseFill } from "react-icons/ri"
 import CatalogDesktop from '../../catalog-desktop/CatalogDesktop'
+import {Overlay} from "../../../utils/index"
 
 const HeaderBottom = () => {
     const [categoryList, setCategoryList] = useState(null)
@@ -18,7 +19,7 @@ const HeaderBottom = () => {
             <div className={c.header__bottom}>
                 <div className="container">
                     <div className={c.header__bottom__wrapper}>
-                        <button className={c.header__bottom__btn} onClick={() => setCatalogActive(!catalogActive)}>
+                        <button className={c.header__bottom__btn} onClick={() => setCatalogActive(!catalogActive)} onBlur={() => setCatalogActive(false)}>
                             {catalogActive ?
                                 <span className={c.header__close__catalog}>
                                     <RiCloseFill />
