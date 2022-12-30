@@ -36,7 +36,7 @@
     width: 80%;
     background-color: #fff;
     height: 100vh;
-    z-index: 101;
+    z-index: 5;
     overflow-y: auto;
 }
 

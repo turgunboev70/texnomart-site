@@ -78,7 +78,7 @@
   left: -20px;
 }
 .swiper__btn__next {
-  right: 0px;
+  right: calc(40px / -2);
 }
 
 @media screen and (min-width: 1024px) {

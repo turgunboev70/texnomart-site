@@ -10,16 +10,22 @@ import list from "../../../dummy-files/headerTop.dummy.json"
 import siteLogo from "../../../assets/images/texnomart_logo.svg"
 import { TfiDropbox } from "react-icons/tfi"
 import CatalogMobile from '../../catalog-mobile/CatalogMobile'
+import {Overlay} from "../../../utils/index"
 
 const HeaderFixed = () => {
     const [mobileNavActive, setMobileNavActive] = useState(false)
     const [catalogListActive, setCatalogListActive] = useState(false)
     const [catalogBarActive, setCatalogBarActive] = useState(false)
 
+    if(mobileNavActive) {
+        document.body.style.overflow = "hidden"
+    } else {
+        document.body.style.overflow = "auto"
+    }
+
 
     return (
         <>
-
             <div className={c.header__fixed__wrapper}>
                 <div className="container">
                     <div className={c.header__fixed__inner}>
@@ -141,6 +147,7 @@ const HeaderFixed = () => {
                 </div>
             </div>
             {catalogBarActive && <CatalogMobile callback={setCatalogBarActive}/>}
+            {mobileNavActive && <Overlay callback={setMobileNavActive}/>}
         </>
     )
 }
