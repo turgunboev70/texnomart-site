@@ -1,0 +1,39 @@
+.product__wrapper {
+    margin-top: 20px;
+}
+.product__status {
+    margin-bottom: 1.5rem;
+}
+.status__text {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+}
+.product__slider {
+    position: relative;
+}
+.product__slide {
+    width: 234px;
+    display: flex;
+}
+.product__box {
+    display: flex;
+}
+.product__action {
+    position: relative;
+    border-right: 1px solid #ececec;
+    padding: 15px 16px 0;
+    margin: 0;
+    width: 100%;
+}
+.product__action__text {
+    position: absolute;
+    top: 0;
+    left: 16px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    padding: 0 8px;
+    margin-bottom: 5px;
+}
