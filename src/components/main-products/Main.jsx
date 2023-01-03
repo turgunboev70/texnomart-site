@@ -11,7 +11,7 @@ const Main = () => {
             .catch(err =>  console.error(err))
     }, [])
 
-    console.log(productData);
+    
     return (
         <>
             <ProductSwiper productData={productData?.slice(0, 10)} status={`Zo'r narx`} id={1}/>
