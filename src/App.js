@@ -5,6 +5,7 @@ import Header from './components/header/Header'
 import SidebarDesktop from './components/sidebar-desktop/SidebarDesktop'
 import SidebarMobile from "./components/sidebar-mobile/SidebarMobile"
 import Main from "./components/main-products/Main"
+import AppInstall from './components/app-install/AppInstall'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <CompanySwiper/>
       <CatalogSlider/>
       <Main/>
+      <AppInstall/>
     </>
   )
 }

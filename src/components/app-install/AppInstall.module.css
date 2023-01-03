@@ -1,0 +1,57 @@
+.install__section {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .install__section {
+        display: block;
+        margin-top: 35px;
+    }
+
+    .banner__wrapper {
+        padding: 0 45px 0 60px;
+        display: flex;
+        align-items: center;
+        background-color: #f7f7f7;
+        border-radius: 16px;
+        margin-bottom: 68px;
+    }
+
+    .banner__left {
+        margin-right: 100px;
+    }
+
+    .banner__right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner__title {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 140%;
+        color: #000;
+        margin-bottom: 20px;
+    }
+
+    .banner__info__desc {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 20px;
+        max-width: 420px;
+    }
+
+    .banner__quar {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .banner__quar > img {
+        margin-right: 20px;
+    }
+    .quar__text {
+        max-width: 180px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+}

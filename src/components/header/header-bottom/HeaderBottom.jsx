@@ -18,7 +18,7 @@ const HeaderBottom = () => {
             <div className={c.header__bottom}>
                 <div className="container">
                     <div className={c.header__bottom__wrapper}>
-                        <button className={c.header__bottom__btn} onClick={() => setCatalogActive(!catalogActive)} onBlur={() => setCatalogActive(false)}>
+                        <button className={c.header__bottom__btn} onClick={() => setCatalogActive(!catalogActive)}>
                             {catalogActive ?
                                 <span className={c.header__close__catalog}>
                                     <RiCloseFill />
