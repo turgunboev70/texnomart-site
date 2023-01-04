@@ -1,0 +1,14 @@
+[
+    {
+        "text" : "Kompaniya",
+        "inner" : ["B2B savdosi", "Biz haqimizda", "Yangiliklar va sharhlar", "IMEI ni tekshirish"]
+    },
+    {
+        "text" : "Ma'lumot",
+        "inner" : ["Bepul yetkazib berish", "Bonus tizimi", "Texnomartda ishlash", "Shaxsiy kabinet", "Aloqa raqamlari"]
+    },
+    {
+        "text" : "Haridorga yordam",
+        "inner" : ["Muddatli to'lovga sotib olish", "Maxsulotni qaytarish", "Mahsulotni uchun kafolat", "Ko'p so'raladigan savollar"]
+    }
+]

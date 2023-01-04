@@ -1,0 +1,29 @@
+.footer__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: .2px;
+    position: relative;
+    cursor: pointer;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.footer__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__icon {
+    font-size: 16px;
+}
+.footer__text {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    font-weight: 400;
+}
