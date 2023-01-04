@@ -1,0 +1,16 @@
+.desktop__context {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.desktop__list > li {
+    display: block;
+    color: #fff;
+    transition: all .3s ease;
+    font-size: 14px;
+    line-height: 200%;
+    letter-spacing: .2px;
+}

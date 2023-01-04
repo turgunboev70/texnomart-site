@@ -54,7 +54,40 @@
     font-size: 25px;
     color: #fff;
 }
-.footer__top__right {
+.right__mobile {
     margin-bottom: 1.5rem;
     border-bottom: 1px solid #575757;
+}
+.right__desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .footer__top {
+        flex-direction: row;
+    }
+    .footer__inner {
+        padding: 54px 32px 24px;
+    }
+    .footer__top__left {
+        border: none;
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .left__content > a {
+        font-size: 28px;
+        line-height: 110%;
+    }
+    .left__list {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .right__mobile {
+        display: none;
+    }
+    .right__desktop {
+        display: flex;
+        flex-grow: 1;
+        justify-content: space-between;
+    }
 }
