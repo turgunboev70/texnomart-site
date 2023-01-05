@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import c from "./Login.module.css"
 import { CgClose } from "react-icons/cg"
 import { auth } from "../../firebase/config"
+import Error from "../error-handler/Error"
 
 const Login = ({ callback }) => {
     const [signIn, setSignIn] = useState(true)
@@ -20,6 +21,7 @@ const Login = ({ callback }) => {
                 callback(false)
             }
         })
+        .catch(err => setPossibleError(err.message))
     }
 
     const loginUser = (e) => {
@@ -31,9 +33,10 @@ const Login = ({ callback }) => {
                 callback(false)
             } 
         })
-        .catch(err => setPossibleError(err))
+        .catch(err => setPossibleError(err.message))
     }
 
+    
 
     return (
         <div className={c.login__content}>
@@ -56,6 +59,7 @@ const Login = ({ callback }) => {
                                 <label className={c.login__label} htmlFor="login">Parol<span>*</span></label>
                                 <input className={c.login__input} required type="password" onChange={(e) => setCreateUserPassword(e.target.value)}/>
                             </div>
+                            {possibleError && <Error error={possibleError}/>}
                             <button className={c.form__btn}>E-mail orqali kirish</button>
                         </form>
                     </div>
@@ -67,8 +71,9 @@ const Login = ({ callback }) => {
                             </div>
                             <div className={c.login__box}>
                                 <label className={c.login__label} htmlFor="login">Parol<span>*</span></label>
-                                <input className={c.login__input} required type="text" onChange={(e) => setUserPassword(e.target.value)}/>
+                                <input className={c.login__input} required type="password" onChange={(e) => setUserPassword(e.target.value)}/>
                             </div>
+                            {possibleError && <Error error={possibleError}/>}
                             <button className={c.form__btn}>Ro'yhatdan o'tish</button>
                         </form>
                     </div>
