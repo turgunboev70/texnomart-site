@@ -21,7 +21,7 @@ const HeaderFixed = () => {
     const [loginActive, setLoginActive] = useState(false)
     const [shoppingCartActive, setShoppingCartActive] = useState(false)
 
-    if(mobileNavActive) {
+    if(mobileNavActive || loginActive || shoppingCartActive || catalogBarActive) {
         document.body.style.overflow = "hidden"
     } else {
         document.body.style.overflow = "auto"

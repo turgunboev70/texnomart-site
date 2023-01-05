@@ -8,7 +8,7 @@ import {CgMathPlus, CgMathMinus, CgHeart, CgClose, CgTrash} from "react-icons/cg
 const ShoppingCart = ({ callback }) => {
     const selector = useSelector(state => state)
 
-    console.log(selector);
+    
     return (
         <div className={c.shopping__cart}>
             <div className={c.cart__header}>
@@ -21,7 +21,7 @@ const ShoppingCart = ({ callback }) => {
                 {selector?.cart?.cart.length !== 0 ?
                     <div className={c.product__wrapper}>
                         {selector?.cart?.cart.map(({ id, image, title, price, count }) =>
-                            <div className={c.product__item}>
+                            <div key={id} className={c.product__item}>
                                 <div className={c.product__left}>
                                     <img src={image} alt="loading..."/>
                                     <div className={c.product__info}>

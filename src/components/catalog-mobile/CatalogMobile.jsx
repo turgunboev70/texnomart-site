@@ -13,7 +13,6 @@ const CatalogMobile = ({ callback }) => {
 
     return (
         <>
-
             <div className={c.catalog__mobile}>
                 <div className={c.catalog__wrapper}>
                     <div className={c.catalog__header}>
