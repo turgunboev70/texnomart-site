@@ -7,6 +7,7 @@ import SidebarMobile from "./components/sidebar-mobile/SidebarMobile"
 import Main from "./components/main-products/Main"
 import AppInstall from './components/app-install/AppInstall'
 import Footer from './components/footer/Footer'
+import NavbarMobile from './components/navbar-mobile/NavbarMobile'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Main />
       <AppInstall />
       <Footer />
+      <NavbarMobile/>
     </>
   )
 }
