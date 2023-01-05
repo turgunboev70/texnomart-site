@@ -11,14 +11,14 @@ import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <>
-      <Header/>
-      <SidebarDesktop/>
-      <SidebarMobile/>
-      <CompanySwiper/>
-      <CatalogSlider/>
-      <Main/>
-      <AppInstall/>
-      <Footer/>
+      <Header />
+      <SidebarDesktop />
+      <SidebarMobile />
+      <CompanySwiper />
+      <CatalogSlider />
+      <Main />
+      <AppInstall />
+      <Footer />
     </>
   )
 }

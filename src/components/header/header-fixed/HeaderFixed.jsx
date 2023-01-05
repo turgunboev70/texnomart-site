@@ -11,11 +11,13 @@ import siteLogo from "../../../assets/images/texnomart_logo.svg"
 import { TfiDropbox } from "react-icons/tfi"
 import CatalogMobile from '../../catalog-mobile/CatalogMobile'
 import {Overlay} from "../../../utils/index"
+import Login from '../../login/Login'
 
 const HeaderFixed = () => {
     const [mobileNavActive, setMobileNavActive] = useState(false)
     const [catalogListActive, setCatalogListActive] = useState(false)
     const [catalogBarActive, setCatalogBarActive] = useState(false)
+    const [loginActive, setLoginActive] = useState(false)
 
     if(mobileNavActive) {
         document.body.style.overflow = "hidden"
@@ -56,9 +58,9 @@ const HeaderFixed = () => {
                                         </span>
                                     </div>
                                     <div className={c.header__login__text}>
-                                        <button className={c.header__login__btn}>Kirish</button>
+                                        <button className={c.header__login__btn} onClick={() => setLoginActive(true)}>Kirish</button>
                                         <span className={c.header__line__span}></span>
-                                        <button className={c.header__login__btn}>Ro'yxatdan o'tish</button>
+                                        <button className={c.header__login__btn} onClick={() => setLoginActive(true)}>Ro'yxatdan o'tish</button>
                                     </div>
                                 </div>
                             </div>
@@ -148,6 +150,7 @@ const HeaderFixed = () => {
             </div>
             {catalogBarActive && <CatalogMobile callback={setCatalogBarActive}/>}
             {mobileNavActive && <Overlay callback={setMobileNavActive}/>}
+            {loginActive && <Login callback={setLoginActive}/>}
         </>
     )
 }
