@@ -12,12 +12,14 @@ import { TfiDropbox } from "react-icons/tfi"
 import CatalogMobile from '../../catalog-mobile/CatalogMobile'
 import {Overlay} from "../../../utils/index"
 import Login from '../../login/Login'
+import ShoppingCart from '../../shopping-cart/ShoppingCart'
 
 const HeaderFixed = () => {
     const [mobileNavActive, setMobileNavActive] = useState(false)
     const [catalogListActive, setCatalogListActive] = useState(false)
     const [catalogBarActive, setCatalogBarActive] = useState(false)
     const [loginActive, setLoginActive] = useState(false)
+    const [shoppingCartActive, setShoppingCartActive] = useState(false)
 
     if(mobileNavActive) {
         document.body.style.overflow = "hidden"
@@ -139,7 +141,7 @@ const HeaderFixed = () => {
                                     <RiHeartLine />
                                     <span>Sevimlilar</span>
                                 </li>
-                                <li className={c.header__right__item}>
+                                <li className={c.header__right__item} onClick={() => setShoppingCartActive(true)}>
                                     <MdOutlineShoppingCart />
                                     <span>Savatcha</span>
                                 </li>
@@ -152,6 +154,8 @@ const HeaderFixed = () => {
             {mobileNavActive && <Overlay callback={setMobileNavActive}/>}
             {loginActive && <Login callback={setLoginActive}/>}
             {loginActive && <Overlay callback={setLoginActive}/>}
+            {shoppingCartActive && <ShoppingCart callback={setShoppingCartActive}/>}
+            {shoppingCartActive && <Overlay callback={setShoppingCartActive}/>}
         </>
     )
 }

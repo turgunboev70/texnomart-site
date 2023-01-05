@@ -1,5 +1,6 @@
 .swiper__wrapper {
     display: none;
+    position: relative;
 }
 .swiper__box {
     position: relative;

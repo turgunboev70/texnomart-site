@@ -12,6 +12,7 @@ import { EffectFade, Pagination, Navigation, Autoplay } from "swiper";
 import React from 'react'
 import c from "./SidebarDesktop.module.css"
 import images from "../../dummy-files/swiperImages.dummy.json"
+import {FiChevronLeft, FiChevronRight} from "react-icons/fi"
 
 const Sidebar = () => {
   return (
@@ -20,7 +21,10 @@ const Sidebar = () => {
         slidesPerView={1}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         effect={"fade"}
-        navigation={true}
+        navigation={{
+          prevEl: `.sidebar-prev`,
+          nextEl: `.sidebar-next`
+        }}
         pagination={{ clickable: true }}
         loop={true}
         modules={[EffectFade, Pagination, Navigation, Autoplay]}
@@ -32,6 +36,12 @@ const Sidebar = () => {
           </SwiperSlide>
         )}
       </Swiper>
+      <button className={`sidebar-prev swiper__btn`} style={{ left: "20px" }}>
+        <FiChevronLeft />
+      </button>
+      <button className={`sidebar-next swiper__btn`} style={{ right: "20px" }}>
+        <FiChevronRight />
+      </button>
     </div>
   )
 }

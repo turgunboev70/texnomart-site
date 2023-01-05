@@ -1,11 +1,22 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import c from "./ProductCart.module.css"
-import {FiShoppingCart, FiHeart} from "react-icons/fi"
-import {BsCartCheck} from "react-icons/bs"
-import {TbScale} from "react-icons/tb"
+import { FiShoppingCart, FiHeart } from "react-icons/fi"
+import { BsCartCheck } from "react-icons/bs"
+import { TbScale } from "react-icons/tb"
+import { useDispatch } from 'react-redux'
 
 const ProductCart = ({ id, image, title, price }) => {
+    const dispatch = useDispatch()
+    
+    const dispatchProducts = (data) => {
+        const action = {
+            type : "ADD_TO_CART",
+            data : data
+        }
+
+        dispatch(action)
+    }
     return (
         <div className={c.product__inner}>
             <div className={c.product__top}>
@@ -29,12 +40,12 @@ const ProductCart = ({ id, image, title, price }) => {
                     </div>
                     <div className={c.product__actions}>
                         <div className={c.product__cart__btn}>
-                            <button className={c.shopping__btn}>
+                            <button className={c.shopping__btn} onClick={() => dispatchProducts({id, image, title, price, count : 1})}>
                                 <span className={c.icon__after}>
-                                    <FiShoppingCart/>
+                                    <FiShoppingCart />
                                 </span>
                                 <span className={c.icon__before}>
-                                    <BsCartCheck/>
+                                    <BsCartCheck />
                                 </span>
                                 <span className={c.basket__text}>Savatchaga</span>
                             </button>
@@ -44,10 +55,10 @@ const ProductCart = ({ id, image, title, price }) => {
                         </div>
                         <div className={c.product__action__right}>
                             <button className={c.action__btn}>
-                                <FiHeart/>
+                                <FiHeart />
                             </button>
                             <button className={c.action__btn}>
-                                <TbScale/>
+                                <TbScale />
                             </button>
                         </div>
                     </div>
