@@ -39,7 +39,7 @@ const HeaderFixed = () => {
                                 <img src={siteLogo} alt="" />
                             </a>
                         </div>
-                        <div className={mobileNavActive ? `${c.header__fixed__navMobile} ${c.nav__mobile__active}` : `${c.header__fixed__navMobile}`}>
+                        <div className={mobileNavActive ? `${c.header__fixed__navMobile} ${c.nav__mobile__active}` : `${c.header__fixed__navMobile}`} style={loginActive ? {zIndex: "3"} : null}>
                             <div className={c.header__nav__top}>
                                 <div className={c.header__navInner__top}>
                                     <span className={c.header__nav__logo}>
@@ -127,7 +127,7 @@ const HeaderFixed = () => {
                                     <TfiDropbox />
                                     <span>Buyurtma holati</span>
                                 </li>
-                                <li className={c.header__right__item}>
+                                <li className={c.header__right__item} onClick={() => setLoginActive(true)}>
                                     <TbUser />
                                     <span>Kirish</span>
                                 </li>
@@ -151,6 +151,7 @@ const HeaderFixed = () => {
             {catalogBarActive && <CatalogMobile callback={setCatalogBarActive}/>}
             {mobileNavActive && <Overlay callback={setMobileNavActive}/>}
             {loginActive && <Login callback={setLoginActive}/>}
+            {loginActive && <Overlay callback={setLoginActive}/>}
         </>
     )
 }
