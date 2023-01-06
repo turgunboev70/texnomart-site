@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 import c from "./HeaderFixed.module.css"
 import { TbMenu2, TbMicrophone, TbSearch, TbUser, TbScale } from "react-icons/tb"
 import { RiCloseFill, RiUser6Line, RiCheckboxBlankLine, RiHeartLine } from "react-icons/ri"
@@ -22,6 +22,7 @@ const HeaderFixed = () => {
     const [loginActive, setLoginActive] = useState(false)
     const [shoppingCartActive, setShoppingCartActive] = useState(false)
     const selector = useSelector(state => state)
+    const headerFixed = useRef()
 
     if(mobileNavActive || loginActive || shoppingCartActive || catalogBarActive) {
         document.body.style.overflow = "hidden"
@@ -29,10 +30,14 @@ const HeaderFixed = () => {
         document.body.style.overflow = "auto"
     }
 
+    window.addEventListener("scroll", function(){
+        headerFixed?.current?.classList.toggle(`${c.sticky}`, this.window.scrollY > 140)
+    })
+
 
     return (
         <>
-            <div className={c.header__fixed__wrapper}>
+            <div className={c.header__fixed__wrapper} ref={headerFixed}>
                 <div className="container">
                     <div className={c.header__fixed__inner}>
                         <button className={c.header__fixed__miniBtn} onClick={() => setMobileNavActive(true)}>
