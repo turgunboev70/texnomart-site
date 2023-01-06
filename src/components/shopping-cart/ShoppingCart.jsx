@@ -58,10 +58,7 @@ const ShoppingCart = ({ callback }) => {
                                         <CgTrash className={c.product__icon} onClick={() => {
                                             dispatch({
                                                 type: "REMOVE_PRODUCT",
-                                                data: {
-                                                    id: product.id,
-                                                    count: product.count
-                                                }
+                                                data: product
                                             })
                                         }} />
                                     </div>
