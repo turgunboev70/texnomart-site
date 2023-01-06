@@ -13,6 +13,7 @@ import CatalogMobile from '../../catalog-mobile/CatalogMobile'
 import {Overlay} from "../../../utils/index"
 import Login from '../../login/Login'
 import ShoppingCart from '../../shopping-cart/ShoppingCart'
+import { useSelector } from 'react-redux'
 
 const HeaderFixed = () => {
     const [mobileNavActive, setMobileNavActive] = useState(false)
@@ -20,6 +21,7 @@ const HeaderFixed = () => {
     const [catalogBarActive, setCatalogBarActive] = useState(false)
     const [loginActive, setLoginActive] = useState(false)
     const [shoppingCartActive, setShoppingCartActive] = useState(false)
+    const selector = useSelector(state => state)
 
     if(mobileNavActive || loginActive || shoppingCartActive || catalogBarActive) {
         document.body.style.overflow = "hidden"
@@ -141,9 +143,10 @@ const HeaderFixed = () => {
                                     <RiHeartLine />
                                     <span>Sevimlilar</span>
                                 </li>
-                                <li className={c.header__right__item} onClick={() => setShoppingCartActive(true)}>
+                                <li className={c.header__right__item} onClick={() => setShoppingCartActive(true)} style={{position : "relative"}}>
                                     <MdOutlineShoppingCart />
                                     <span>Savatcha</span>
+                                    {selector?.cart?.cart.length > 0 && <div className={c.product__count}>{selector?.cart?.cart.length}</div>}
                                 </li>
                             </ul>
                         </div>
