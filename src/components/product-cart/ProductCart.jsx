@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from "react-router-dom"
 import c from "./ProductCart.module.css"
 import { FiShoppingCart, FiHeart } from "react-icons/fi"
 import { CgMathMinus, CgMathPlus } from "react-icons/cg"
 import { BsCartCheck } from "react-icons/bs"
 import { TbScale } from "react-icons/tb"
-import { Provider, useDispatch, useSelector } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 
 const ProductCart = ({ id, image, title, price }) => {
     const dispatch = useDispatch()
@@ -24,7 +24,7 @@ const ProductCart = ({ id, image, title, price }) => {
         <>
         <div className={c.product__inner}>
             <div className={c.product__top}>
-                <Link to={"/product-page"}>
+                <Link to={`/product/${id}`}>
                     <img className={c.product__image} src={image} alt="loading..." />
                 </Link>
             </div>

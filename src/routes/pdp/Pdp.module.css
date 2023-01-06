@@ -1,0 +1,107 @@
+
+.breadcrump__list {
+    display: flex;
+    overflow-x: scroll;
+    margin-bottom: 1.25rem;
+    margin-top: 1rem;
+}
+
+.breadcrump__item,
+.breadcrump__item>a {
+    width: auto;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333;
+    white-space: nowrap;
+    position: relative;
+    margin: 0 4px 0 0;
+    padding: 4px 12px;
+    background-color: #ececec;
+    transform: skewX(-10deg);
+    border-radius: 4px;
+}
+
+.breadcrump__item:last-child {
+    background-color: #feedb3;
+}
+.product__top {
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 1rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.product__title {
+    margin-bottom: 1.25rem;
+    font-weight: 500;
+    color: #373f41;
+    font-size: 20px;
+    line-height: 28px;
+}
+.product__icons {
+    display: flex;
+    align-items: center;
+}
+.product__rating {
+    margin-right: 2rem;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    font-size: 15px;
+}
+.product__code {
+    width: 71px;
+    display: flex;
+    color: #767676;
+    font-size: 14px;
+    line-height: 20px;
+}
+.product__detail {
+    margin-bottom: 2.5rem;
+}
+.product__widget {
+    display: flex;
+    justify-content: space-between;
+}
+.product__status {
+    background-color: #333333;
+    color: #fec20f;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 16px;
+}
+.product__available {
+    border-radius: 50px;
+    height: 22px;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: .4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(22,198,122,.1);
+    color: #16c67a;
+    padding: 0 6px 0 3px;
+    cursor: pointer;
+}
+.product__available > img {
+    margin-right: 6px;
+}
+.product__image {
+    margin-bottom: 24px;
+    width: 355px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.product__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
