@@ -17,7 +17,7 @@ const Pdp = () => {
     const [product, setProduct] = useState(null)
     const selector = useSelector(state => state)
     const dispatch = useDispatch()
-
+    console.log(product);
 
     useEffect(() => {
         fetch(`https://fakestoreapi.com/products/${params.id}`)
@@ -71,7 +71,31 @@ const Pdp = () => {
                             </div>
                         </div>
                         <div className={c.detail__middle}>
-
+                            <div className={c.middle__characteristic}>
+                                <p className={c.middle__productInfo}>Mahsulot haqida qisqacha</p>
+                                <ul className={c.middle__list}>
+                                    <li className={c.middle__item}>
+                                        <h2 className={c.middle__subtitle}>Mahsulot nomi</h2>
+                                        <span className={c.middle__categoryName}>{product?.title}</span>
+                                    </li>
+                                    <li className={c.middle__item}>
+                                        <h2 className={c.middle__subtitle}>Kategoriyasi</h2>
+                                        <span className={c.middle__categoryName}>{product?.category}</span>
+                                    </li>
+                                    <li className={c.middle__item}>
+                                        <h2 className={c.middle__subtitle}>Narxi</h2>
+                                        <span className={c.middle__categoryName}>{`${product?.price} $`}</span>
+                                    </li>
+                                    <li className={c.middle__item}>
+                                        <h2 className={c.middle__subtitle}>Reyting</h2>
+                                        <span className={c.middle__categoryName}>{product?.rating?.rate}</span>
+                                    </li>
+                                    <li className={c.middle__item}>
+                                        <h2 className={c.middle__subtitle}>Reytinglar soni</h2>
+                                        <span className={c.middle__categoryName}>{product?.rating?.count}</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div className={c.detail__right}>
                             <div className={c.detail__btns}>
