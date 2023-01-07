@@ -158,7 +158,7 @@ const HeaderFixed = () => {
                     </div>
                 </div>
             </div>
-            {mobileNavActive && <CatalogMobile callback={setCatalogBarActive}/>}
+            {catalogBarActive && <CatalogMobile callback={setCatalogBarActive}/>}
             {mobileNavActive && <Overlay callback={setMobileNavActive}/>}
             {loginActive && <Login callback={setLoginActive}/>}
             {loginActive && <Overlay callback={setLoginActive}/>}
