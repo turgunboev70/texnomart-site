@@ -26,7 +26,7 @@ const ShoppingCart = ({ callback }) => {
                                 <div className={c.product__left}>
                                     <img src={product.image} alt="loading..." />
                                     <div className={c.product__info}>
-                                        <Link className={c.product__title}>{product.title}</Link>
+                                        <Link className={c.product__title} to={`/product/${product.id}`}>{product.title}</Link>
                                         <span className={c.product__price}>{`${product.price} $`}</span>
                                     </div>
                                 </div>
