@@ -5,11 +5,14 @@ import { CgShoppingCart, CgHeart } from "react-icons/cg"
 import CatalogMobile from '../catalog-mobile/CatalogMobile'
 import ShoppingCart from '../shopping-cart/ShoppingCart'
 import { useSelector } from 'react-redux'
+import Login from '../login/Login'
+import { Overlay } from '../../utils'
 
 const NavbarMobile = () => {
     const selector = useSelector(state => state)
     const [catalogActive, setCatalogActive] = useState(false)
     const [cartActive, setCartActive] = useState(false)
+    const [loginActive, setLoginActive] = useState(false)
 
     return (
         <>
@@ -40,7 +43,7 @@ const NavbarMobile = () => {
                             <span>Sevimlilar</span>
                         </button>
                     </li>
-                    <li className={c.navbar__item}>
+                    <li className={c.navbar__item} onClick={() => setLoginActive(true)}>
                         <button className={c.navbar__btn}>
                             <TbUser className={c.navbar__icon} />
                             <span>Kirish</span>
@@ -50,6 +53,8 @@ const NavbarMobile = () => {
             </div>
             { catalogActive && <CatalogMobile callback={setCatalogActive}/>}
             {cartActive && <ShoppingCart callback={setCartActive}/>}
+            {loginActive && <Login callback={setLoginActive}/>}
+            {loginActive && <Overlay callback={setLoginActive}/>}
         </>
     )
 }
